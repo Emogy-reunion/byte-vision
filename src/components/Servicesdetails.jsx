@@ -1,5 +1,20 @@
 import React from "react";
 import "/src/assets/css/services.css";
+import emImage from '/src/assets/images/em.png';
+import devImage from '/src/assets/images/dev.jpeg';
+import dev2Image from '/src/assets/images/dev2.jpeg';
+import ui1Image from '/src/assets/images/ui1.jpg';
+import ui2Image from '/src/assets/images/ui2.jpg';
+import ui3Image from '/src/assets/images/ui3.jpg';
+import maintain1Image from '/src/assets/images/maintain1.jpeg';
+import techImage from '/src/assets/images/tech.jpeg';
+import maintain2Image from '/src/assets/images/maintain2.jpeg';
+import sample1Image from '/src/assets/images/sample1.jpeg';
+import sample3Image from '/src/assets/images/sample3.jpeg';
+import sample4Image from '/src/assets/images/sample4.jpeg';
+import branding1Image from '/src/assets/images/branding1.jpeg';
+import branding2Image from '/src/assets/images/branding2.jpeg';
+import branding3Image from '/src/assets/images/branding3.jpeg';
 
 const ServiceDetails = () => {
 	return (
@@ -12,15 +27,15 @@ const ServiceDetails = () => {
 				<div className='services'>
 
 					<div>
-						<img src='/src/assets/images/em.png' alt='tech' />
+						<img src={emImage} alt='tech' />
 					</div>
 
 					<div>
-                                        	<img src='/src/assets/images/dev.jpeg' alt='tech' />
+                                        	<img src={devImage} alt='tech' />
                                 	</div>
 
 					<div className='hide-service'>
-                                        	<img src='/src/assets/images/dev2.jpeg' alt='tech' />
+                                        	<img src={dev2Image} alt='tech' />
                                 	</div>
 
 				</div>
@@ -32,15 +47,15 @@ const ServiceDetails = () => {
 				<div className='services'>
 
 					<div className='hide-service'>
-						<img src='/src/assets/images/ui1.jpg' alt='tech' />
+						<img src={ui1Image} alt='tech' />
 					</div>
 
 					<div>
-                                        	<img src='/src/assets/images/ui2.jpg' alt='tech' />
+                                        	<img src={ui2Image} alt='tech' />
                                 	</div>
 
 					<div>
-                                        	<img src='/src/assets/images/ui3.jpg' alt='tech' />
+                                        	<img src={ui3Image} alt='tech' />
                                 	</div>
 
 				</div>
@@ -52,15 +67,15 @@ const ServiceDetails = () => {
 				<div className='services'>
 
 					<div>
-						<img src='/src/assets/images/maintain1.jpeg' alt='tech' />
+						<img src={maintain1Image} alt='tech' />
 					</div>
 
 					<div className='hide-service'>
-                                        	<img src='/src/assets/images/tech.jpeg' alt='tech' />
+                                        	<img src={techImage} alt='tech' />
                                 	</div>
 
 					<div>
-                                        	<img src='/src/assets/images/maintain2.jpeg' alt='tech' />
+                                        	<img src={maintain2Image} alt='tech' />
                                 	</div>
 				</div>
 			</div>
@@ -71,15 +86,15 @@ const ServiceDetails = () => {
                                 <div className='services'>
 
                                         <div>
-                                                <img src='/src/assets/images/sample1.jpeg' alt='tech' />
+                                                <img src={sample1Image} alt='tech' />
                                         </div>
 
                                         <div className='hide-service'>
-                                                <img src='/src/assets/images/sample3.jpeg' alt='tech' />
+                                                <img src={sample2Image} alt='tech' />
                                         </div>
 
                                         <div>
-                                                <img src='/src/assets/images/sample4.jpeg' alt='tech' />
+                                                <img src={sample4Image} alt='tech' />
                                         </div>
                                 </div>
                         </div>
@@ -91,15 +106,15 @@ const ServiceDetails = () => {
                                 <div className='services'>
 
                                         <div>
-                                                <img src='/src/assets/images/branding1.jpeg' alt='tech' />
+                                                <img src={branding1Image} alt='tech' />
                                         </div>
 
                                         <div>
-                                                <img src='/src/assets/images/branding2.jpeg' alt='tech' />
+                                                <img src={branding2Image} alt='tech' />
                                         </div>
 
                                         <div className='hide-service'>
-                                                <img src='/src/assets/images/branding3.jpeg' alt='tech' />
+                                                <img src={branding3Image} alt='tech' />
                                         </div>
                                 </div>
                         </div>

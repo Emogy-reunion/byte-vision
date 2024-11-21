@@ -63,7 +63,7 @@ nav li {
 }
 
 .active-link {
-	background-color: gold;
+	background-color: chocolate;
 }
 
 @media screen and (max-width: 768px) {

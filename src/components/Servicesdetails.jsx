@@ -90,7 +90,7 @@ const ServiceDetails = () => {
                                         </div>
 
                                         <div className='hide-service'>
-                                                <img src={sample2Image} alt='tech' />
+                                                <img src={sample3Image} alt='tech' />
                                         </div>
 
                                         <div>
